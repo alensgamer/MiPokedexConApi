@@ -14,7 +14,7 @@ const cambio =()=>{
         fetch(url).then((res)=>{
             if(res.status!="200"){
                 console.log(res);
-                pokeimage("../pokemon-sad.gif")
+                pokeimage("./pokemon-sad.gif")
                 aparecer();
                 pikename("No se ha encontrado el pokemon, intenta otra vez.");
                 piketipo("...");
