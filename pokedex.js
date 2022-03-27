@@ -1,7 +1,7 @@
 pokename.addEventListener("keypress", function(evento){
     console.log(evento.keyCode)
     if(evento.keyCode=="13"){
-        cambio();/*alch no se ni como putas hice esto xd*/
+        cambio();/*alch no se ni como piñas hice esto xd*/
     }
     else{
         return 0;
