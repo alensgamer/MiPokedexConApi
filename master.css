@@ -1,0 +1,212 @@
+.pokedex{
+ background-color: rgb(187, 44, 44); 
+ width: 50%; 
+ height: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 10px;
+ 
+}
+.circulo1{
+
+    background-color: rgb(133, 180, 221);
+}
+.racuadrogris{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: gray;
+}
+.recuadro1{
+    width: 400px;
+	height: 700px;
+    margin-left: 20%;
+	float: left;
+    background-color: #C62A28;
+    border-radius: 30px;
+    
+}
+.botonazo{
+		width: 60px;
+		height: 60px;
+		margin-right: 15px; 
+		border: 5px solid #fff;
+		margin: 15px;		
+		background: radial-gradient(#05fbfb, #29abe3);
+		background: -webkit-radial-gradient(#05fbfb, #29abe3);
+		background: -moz-radial-gradient(#05fbfb, #29abe3);
+		background: -o-radial-gradient(#05fbfb, #29abe3);
+		border-radius: 35px;
+		-webkit-border-radius: 35px;
+		-moz-border-radius: 35px;
+        z-index: 9;
+	   	-o-border-radius: 35px;}
+.reflejo{
+		width: 18px;
+		height: 18px;
+		margin: 3px 0 0 10px;
+		background: #fff;
+		opacity: 0.6;
+		border-radius: 15px 15px;
+		-webkit-border-radius: 15px 15px;
+		-moz-border-radius: 15px 15px;
+	   	-o-border-radius: 15px 15px;
+		        
+	}
+    .lucescolores{
+        width: 85px;
+        height: 25px;
+        position: relative;
+        margin-left: 97px;
+        margin-top: -85px;
+        justify-content: space-between;
+        display: flex;
+    }
+    .uno{
+        width: 25px;
+        height: 25px;
+        background-color: #3228c6;
+        opacity: 0.7;
+        border-radius: 25px 25px;
+    }
+    .dos{
+        width: 25px;
+        height: 25px;
+        background-color: #2e9184;
+        opacity: 0.7;
+        border-radius: 25px 25px;
+    }
+    .tres{
+        width: 25px;
+        height: 25px;
+        background-color: #77c628;
+        opacity: 0.7;
+        border-radius: 25px 25px;
+    }
+.imaen{
+        width: 325px;
+        height: 216px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 85px;
+        background-color: rgb(99, 97, 97);
+        display: flex;
+        justify-content: space-around;
+        border-radius: 30px;
+        border-bottom-left-radius:0cm;
+    }
+.imagen2{
+        width: 248px;
+        height: 175px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 255, 255, 0.576);
+        display: flex;
+        justify-content: space-around;
+    }
+.busqueda{
+        width: 325px;
+        height: 111px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+#pokename{
+    
+    width: 132px;
+    height: 58px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #77C15F;
+}
+.boton button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 74px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(55, 52, 52);
+    
+}
+#noc{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    display: none;
+    margin-left: 0%;
+    
+    justify-content: center;
+}
+.imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.datos{
+    width: 325px;
+        height: 216px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(99, 97, 97);
+        display: flex;
+        justify-content: space-around;
+        border-radius: 30px;
+        border-bottom-left-radius:0cm;
+    background-color: darkcyan;
+}
+.datos2{
+        width: 288px;
+        height: 175px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 255, 255, 0.576);
+        display: flex;
+        justify-content: space-around;
+}/*hjgjhgjhkgjkhgjhgf*/
+#ul{
+    width: 284px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#ul div{
+    width: 87px;
+    background-color: #c62828;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#ishi p{
+    display: none;
+    margin: 0%;
+}
+#ishi h4{
+    margin: 0%;
+    display: flex;
+    
+}
+#ni p{
+    display: none;
+    margin: 0%;
+}
+#ni h4{
+    margin: 0%;
+    display: flex;
+    
+}
+#san p{
+    display: none;
+    margin: 0%;
+}
+#san h4{
+    margin: 0%;
+    display: flex;
+    
+}
